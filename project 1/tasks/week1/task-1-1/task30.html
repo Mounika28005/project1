@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation menu styles */
+        nav {
+            background-color: #4CAF50; /* Green background */
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Horizontal layout */
+        }
+
+        nav ul li {
+            margin-right: 20px; /* Space between menu items */
+        }
+
+        nav ul li a {
+            color: white; /* White text */
+            text-decoration: none; /* Remove underline */
+            padding: 8px 15px; /* Padding for links */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s; /* Smooth background change */
+        }
+
+        nav ul li a:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ccc; /* Border around sections */
+            border-radius: 5px; /* Rounded corners */
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+    </ul>
+</nav>
+
+<section id="section1">
+    <h2>Section 1</h2>
+    <p>This is the content of Section 1.</p>
+</section>
+
+<section id="section2">
+    <h2>Section 2</h2>
+    <p>This is the content of Section 2.</p>
+</section>
+
+<section id="section3">
+    <h2>Section 3</h2>
+    <p>This is the content of Section 3.</p>
+</section>
+
+</body>
+</html>
